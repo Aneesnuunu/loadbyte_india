@@ -19,8 +19,8 @@ class NavBar extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               // Logo
-              Image.asset(
-                'assets/logo.png',
+              Image.network(
+                'https://i.postimg.cc/k4WNczDW/Untitled-1.png',
                 width: 110,
                 height: 40,
                 fit: BoxFit.contain,

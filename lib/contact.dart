@@ -49,11 +49,12 @@ class LoadByteContactSection extends StatelessWidget {
           SizedBox(height: isMobile ? 10 : 16),
           Column(
             children: [
-              Image.asset(
-                'assets/logo.png',
+              Image.network(
+                'https://i.postimg.cc/k4WNczDW/Untitled-1.png',
                 width: isMobile ? 100 : 150,
                 height: isMobile ? 40 : 50,
               ),
+
               SizedBox(height: 10),
               Text(
                 'YOUR PARTNER IN DIGITAL GROWTH',
